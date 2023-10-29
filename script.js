@@ -261,7 +261,7 @@ function Func(y){
   }
 }
 
-var y = window.matchMedia("(max-width: 450px)")
+var y = window.matchMedia("(max-width: 600px)")
 Func(y) // Call listener function at run time
 y.addListener(Func) // Attach listener function on state changes
 
